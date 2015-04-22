@@ -1,8 +1,29 @@
-body {
-    padding-top: 60px;
-    padding-bottom: 60px;
+h1{
+    margin-top: 0px;
 }
+.navbar{
+    float: left;
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0px;
+    padding-left: 15px;
+}
+.navbar-inverse .navbar-collapse{
 
+    border-color: transparent;
+}
+.navbar-inverse .navbar-brand:hover{
+    color: inherit;
+    text-decoration: underline;
+}
+.navbar-inverse .navbar-nav>.active>a{
+    color: #333;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: inherit;
+    text-decoration: underline;
+}
 .copyright {
     color: #ffffff;
 }
